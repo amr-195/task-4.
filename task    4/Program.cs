@@ -199,6 +199,9 @@
             AccountUtil.Withdraw(trustAccounts, 3000);
             AccountUtil.Withdraw(trustAccounts, 500);
             AccountUtil.PrintDetails(accounts);
+            AccountUtil.PrintDetails(savAccounts);
+            AccountUtil.PrintDetails(checAccounts);
+            AccountUtil.PrintDetails(trustAccounts);
             Console.WriteLine();
         }
 
